@@ -3,6 +3,7 @@ import UserCard from "./UserCard";
 
 const UserList = ({ users, isFetching }) => {
   const userList = users.map(user => <UserCard user={user} key={user.id} />);
+ console.log(users)
 
   return (
     <div className="container">

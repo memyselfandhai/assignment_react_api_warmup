@@ -3,7 +3,7 @@ import Button from "./elements/Button";
 
 // Custom card component for each user's data
 const UserCard = ({ user }) => {
-  const { first_name, last_name, avatar } = user;
+  const { first_name, last_name, avatar, id } = user;
 
   // Set the CSS max-width attribute directly in the
   // element. `style` accepts a JS object and the
