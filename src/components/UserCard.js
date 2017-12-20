@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./elements/Button";
 
 // Custom card component for each user's data
 const UserCard = ({ user }) => {
@@ -16,9 +17,9 @@ const UserCard = ({ user }) => {
           {first_name} {last_name}
         </h4>
       </div>
+      <Button color="danger" size="small" type="btn" children="Delete User" />
     </div>
   );
 };
 
 export default UserCard;
-
